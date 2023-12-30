@@ -5,10 +5,11 @@ export default {
   config(_input) {
     return {
       name: "sst-vite-app",
-      region: "us-east-1",
+      region: "ap-northeast-1",
+      profile: "be4rr",
     };
   },
   stacks(app) {
     app.stack(API);
-  }
+  },
 } satisfies SSTConfig;
